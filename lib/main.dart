@@ -207,4 +207,27 @@ Row(
  'Este e um texto extremamente longo utilizado propositalmente para provocar um overflow horizontal na Row e mostrar as faixas amarelas e pretas do Flutter.',
  ),
  ],
+),// ===== DESAFIO 5 =====
+// Adicionado selo Confirmado no canto inferior esquerdo
+Positioned(
+ bottom: -8,
+ left: -8,
+ child: Container(
+ padding: const EdgeInsets.symmetric(
+ horizontal: 8,
+ vertical: 4,
+ ),
+ decoration: BoxDecoration(
+ color: Colors.green,
+ borderRadius: BorderRadius.circular(12),
+ ),
+ child: const Text(
+ 'Confirmado',
+ style: TextStyle(
+ color: Colors.white,
+ fontSize: 10,
+ fontWeight: FontWeight.bold,
+ ),
+ ),
+ ),
 ),
