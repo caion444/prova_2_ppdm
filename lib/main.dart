@@ -230,4 +230,8 @@ Positioned(
  ),
  ),
  ),
-),
+),// ===== DESAFIO 6 =====
+// Substituido Container por Card com elevacao
+Card(
+ elevation: 4,
+ child: Container(
